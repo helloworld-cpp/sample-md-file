@@ -15,7 +15,7 @@
         <li><a href="#store-token">Store Token</a></li>
       </ul>
     </li>
-    <li><a href="#params-:">Params</a></li>
+    <li><a href="#params">Params</a></li>
     <li><a href="#definition-of-api">Definition of Api</a></li>
     <li><a href="#business-logic-of-api">Business logic of Api</a></li>
         <ul>
@@ -103,7 +103,7 @@
         }
         ```
 
-## Params-:
+## Params
 > Body Parameter 
     
     
