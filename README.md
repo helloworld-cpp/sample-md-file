@@ -93,7 +93,7 @@
                     "The company id field is required."
                     "The company id must be a number."
                     "The selected company id is invalid."
-                ]
+                ],
                 "name": [
                     "The name field is required."
                     "The name format is invalid."
