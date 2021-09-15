@@ -26,7 +26,7 @@
 
 ---
 
-## Database Design-:
+## Database Design
  > Below Mention is a database design for Token Api-:
 
 
@@ -52,9 +52,9 @@
 > Table **companies**  has one-many relationship with **tokens** table.
 
 
-## Endpoint of Api-:
+## Endpoint of Api
 
-*   ### Store-Token-:
+*   ### Store-Token
     > This endpoint allows you to generate unique token.
 
     ```curl
@@ -112,13 +112,13 @@
     "custom rule"   => Combination of company_id and name must be unique.
 
 
-## Definition of Api-:
+## Definition of Api
 * Help you to create a unique "Token"
 * "Token" company-wise unique may help you to run campaign
 
-## Business logic of Api-:
+## Business logic of Api
 * Generate a unique UUID("Token") of 36 characters per valid payload and not changable once it was generated. The following information will store in "tokens" table in database.
-* ### Code Blocks-:
+* ### Code Blocks
     Generating the unique token:
     ```php
     public static function boot() {
