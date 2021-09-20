@@ -107,6 +107,12 @@
 > Body Parameter 
     
     
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| `company_id` | `numeric` | **Required**.Must be valid "id" in the "companies" table.|
+| `name` | `alpha_numeric` | **Required**.  |
+| `custom rule` |  | **Should Follow**. Combination of company_id and name must be unique. |
+    
     "company_id"    => Required,Numeric,Must be valid "id" in the "companies" table.
     "name"          => Required,Alpha_numeric.
     "custom rule"   => Combination of company_id and name must be unique.
